@@ -1,0 +1,2 @@
+for i in {1..10} ; do ; cat "aggregate/ratio${i}.tsv" | sed -e 's/\./,/g' > "aggregate/ratio${i}.txt" ; done
+for i in {1..10} ; do ; cat "ratio/ratio${i}.tsv" | sed -e 's/\./,/g' > "ratio/ratio${i}.txt" ; done
